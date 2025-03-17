@@ -5,7 +5,11 @@ For a complete breakdown of the project, including the challenges of traditional
 
 ## Kubernetes Manifests
 
-📂 **deployment-manifests/**  
-├── `deployment.yaml` → Defines the **2048 Game Deployment**  
-├── `service.yaml` → Exposes the application within the cluster  
-└── `ingress.yaml` → Configures **AWS ALB Ingress** for public access  
+📂 **deployment-manifests/**
+
+- `deployment.yaml` → Defines the **2048 Game Deployment**
+- `service.yaml` → Exposes the application within the cluster
+- `ingress.yaml` → Configures **AWS ALB Ingress** for public access
+- `namespace.yaml` → Creates the **game-2048 namespace** for resource isolation
+
+
